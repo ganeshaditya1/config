@@ -47,4 +47,11 @@ function parse_git_dirty {
 
 export PS1="\[\e[32m\][\[\e[m\]\[\e[32m\]\d\[\e[m\] \[\e[32m\]\T\[\e[m\]\[\e[32m\]]\[\e[m\] \[\e[31m\]\u\[\e[m\]\[\e[31m\]@\[\e[m\]\[\e[31m\]\h\[\e[m\]:\[\e[34m\]\w\[\e[m\] \`parse_git_branch\` \n\\$"
 
+# Aliases
 alias cdw="cd ~/workspace/"
+
+# TMUX commands
+alias list_s="tmux ls"
+alias new_s="tmux new -s "
+alias attach_s="tmux a -t "
+alias kill_s="tmux kill-session -t "
