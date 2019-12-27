@@ -49,6 +49,7 @@ export PS1="\[\e[32m\][\[\e[m\]\[\e[32m\]\d\[\e[m\] \[\e[32m\]\T\[\e[m\]\[\e[32m
 
 # Aliases
 alias cdw="cd ~/workspace/"
+alias sdocker="sudo docker "
 
 # TMUX commands
 alias list_s="tmux ls"
