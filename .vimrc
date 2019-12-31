@@ -12,3 +12,11 @@ set wildmenu
 :command WQ wq
 
 syntax on
+
+" File explorer configuration.
+let g:netrw_liststyle = 3
+let g:netrw_banner = 0
+highlight CursorLine ctermbg=LightBlue cterm=NONE " As of for now, only netrw is using a CursorLine
+
+" Keymappings
+nnoremap <F2> :noh<CR>
