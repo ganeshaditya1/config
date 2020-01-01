@@ -5,6 +5,7 @@ set tabstop=4 shiftwidth=2 expandtab
 set noswapfile
 set wildmode=longest,list,full
 set wildmenu
+set laststatus=2
 
 :command W w
 :command Q q
