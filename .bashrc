@@ -52,10 +52,18 @@ alias cdw="cd ~/workspace/"
 alias sdocker="sudo docker "
 alias sapt="sudo apt-get install "
 
-
 # TMUX commands
 alias list_s="tmux -u ls"
 alias new_s="tmux -u new -s "
 alias attach_s="tmux -u a -t "
 alias kill_s="tmux -u kill-session -t "
 alias source_s="tmux source-file ~/.tmux.conf"
+
+export PATH=${PATH}:..:.
+export PATH=/home/aambadipudi/workspace/storm_tutorial/apache-storm-2.2.0/bin:${PATH}
+export PATH=/home/aambadipudi/workspace/storm_tutorial/apache-storm-2.2.0/bin:${PATH}
+
+function histg
+{
+    history | grep $*
+}
